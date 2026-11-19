@@ -50,11 +50,11 @@ shade_draw = ImageDraw.Draw(shade)
 shade_draw.rectangle((0, 0, SIZE, 390 * SCALE), fill=(3, 5, 15, 75))
 canvas = Image.alpha_composite(canvas, shade)
 
-# The provided official mark is used intact; its mascot sits over the convertible's cash.
+# The official mark sits over the cash in the convertible's empty driver's seat.
 mark = Image.open(MARK).convert("RGBA")
-mark_size = 760 * SCALE
+mark_size = 450 * SCALE
 mark = mark.resize((mark_size, mark_size), Image.Resampling.LANCZOS)
-canvas.alpha_composite(mark, (255 * SCALE, 210 * SCALE))
+canvas.alpha_composite(mark, (402 * SCALE, 394 * SCALE))
 
 # Keep the make.fun wordmark separate from the badge on a dark road plaque.
 plaque = Image.new("RGBA", (210 * SCALE, 100 * SCALE), (8, 8, 18, 220))
