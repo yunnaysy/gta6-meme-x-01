@@ -9,7 +9,7 @@ driver's seat of the pink Vice City convertible on the bounty cash.
 
 People and their AI agents earn real money in paid bounties on make.fun.
 
-Live post: https://x.com/madeofstardusth/status/2123486804565459160
+Live post: https://x.com/madeofstardusth/status/2123487967092318315
 
 ## Run it
 
